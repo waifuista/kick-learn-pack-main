@@ -25,22 +25,22 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import productMockup from "@/assets/product-mockup.png.asset.json";
-import superstarZone from "@/assets/superstar-zone.png.asset.json";
-import geographyPage from "@/assets/geography.png.asset.json";
-import mathsPage from "@/assets/maths.png.asset.json";
-import englishPage from "@/assets/english.png.asset.json";
-import artDesignPage from "@/assets/art-design.png.asset.json";
-import teamworkPage from "@/assets/teamwork.png.asset.json";
-import inAction1 from "@/assets/in-action-1.png.asset.json";
-import inAction2 from "@/assets/in-action-2.png.asset.json";
-import inAction3 from "@/assets/in-action-3.png.asset.json";
-import inAction4 from "@/assets/in-action-4.png.asset.json";
-import inAction5 from "@/assets/in-action-5.png.asset.json";
-import inAction6 from "@/assets/in-action-6.png.asset.json";
-import superstarNoah from "@/assets/superstar-noah.png.asset.json";
-import superstarFairplay from "@/assets/superstar-fairplay.png.asset.json";
-import superstarEthan from "@/assets/superstar-ethan.png.asset.json";
+import productMockup from "@/assets/product-mockup.png";
+import superstarZone from "@/assets/superstar-zone.png";
+import geographyPage from "@/assets/geography.png";
+import mathsPage from "@/assets/maths.png";
+import englishPage from "@/assets/english.png";
+import artDesignPage from "@/assets/art-design.png";
+import teamworkPage from "@/assets/teamwork.png";
+import inAction1 from "@/assets/in-action-1.png";
+import inAction2 from "@/assets/in-action-2.png";
+import inAction3 from "@/assets/in-action-3.png";
+import inAction4 from "@/assets/in-action-4.png";
+import inAction5 from "@/assets/in-action-5.png";
+import inAction6 from "@/assets/in-action-6.png";
+import superstarNoah from "@/assets/superstar-noah.png";
+import superstarFairplay from "@/assets/superstar-fairplay.png";
+import superstarEthan from "@/assets/superstar-ethan.png";
 import parentsAtHome1 from "@/assets/parents-at-home-1.jpg";
 import parentsAtHome2 from "@/assets/parents-at-home-2.jpg";
 import parentsAtHome3 from "@/assets/parents-at-home-3.jpg";
@@ -306,41 +306,41 @@ function SalesPage() {
 
   const samples = [
     {
-      src: superstarZone.url,
+      src: superstarZone,
       alt: "SUPERSTAR ZONE - Create your own World Cup player profile.",
     },
     {
-      src: geographyPage.url,
+      src: geographyPage,
       alt: "GEOGRAPHY - Explore countries, flags and continents through the World Cup.",
     },
     {
-      src: mathsPage.url,
+      src: mathsPage,
       alt: "MATHS - Learn with football scores, numbers and World Cup statistics.",
     },
     {
-      src: englishPage.url,
+      src: englishPage,
       alt: "ENGLISH - Read, write and tell your own football stories.",
     },
     {
-      src: artDesignPage.url,
+      src: artDesignPage,
       alt: "ART & DESIGN - Create shirts, badges, mascots, stadiums and posters.",
     },
     {
-      src: teamworkPage.url,
+      src: teamworkPage,
       alt: "TEAMWORK - Learn fair play, leadership and champion team spirit.",
     },
   ];
 
   const inActionImages = [
-    { src: inAction1.url, alt: "Child holding a completed World Cup superstar card on a football pitch." },
-    { src: inAction2.url, alt: "Printable World Cup superstar worksheet with profile details and star ratings." },
-    { src: inAction3.url, alt: "Boy showing his completed World Cup superstar card at home." },
-    { src: inAction4.url, alt: "Goalkeeper-themed World Cup superstar worksheet ready to print." },
-    { src: inAction5.url, alt: "Child proudly holding a completed football-themed printable worksheet at home." },
-    { src: inAction6.url, alt: "Student showing a football maths worksheet in the classroom." },
-    { src: superstarNoah.url, alt: "Noah Harrison's completed My World Cup Superstar Card with 5-star Speed rating." },
-    { src: superstarFairplay.url, alt: "Young player proudly showing his completed Fair Play Mission worksheet at football training." },
-    { src: superstarEthan.url, alt: "Ethan Walker's World Cup Superstar Card completed in the classroom." },
+    { src: inAction1, alt: "Child holding a completed World Cup superstar card on a football pitch." },
+    { src: inAction2, alt: "Printable World Cup superstar worksheet with profile details and star ratings." },
+    { src: inAction3, alt: "Boy showing his completed World Cup superstar card at home." },
+    { src: inAction4, alt: "Goalkeeper-themed World Cup superstar worksheet ready to print." },
+    { src: inAction5, alt: "Child proudly holding a completed football-themed printable worksheet at home." },
+    { src: inAction6, alt: "Student showing a football maths worksheet in the classroom." },
+    { src: superstarNoah, alt: "Noah Harrison's completed My World Cup Superstar Card with 5-star Speed rating." },
+    { src: superstarFairplay, alt: "Young player proudly showing his completed Fair Play Mission worksheet at football training." },
+    { src: superstarEthan, alt: "Ethan Walker's World Cup Superstar Card completed in the classroom." },
   ];
 
   const actionCategories = [
@@ -348,15 +348,15 @@ function SalesPage() {
       label: "Student Superstar Moments",
       description: "Let children become part of the World Cup experience.",
       items: [
-        { src: inAction1.url, alt: "Child holding a completed World Cup superstar card on a football pitch.", caption: "Add your photo. Rate your skills. Become a World Cup superstar." },
-        { src: inAction2.url, alt: "Printable World Cup superstar worksheet with profile details and star ratings.", caption: "A personalized football card kids will be excited to complete." },
-        { src: inAction3.url, alt: "Boy showing his completed World Cup superstar card at home.", caption: "A special keepsake activity parents and teachers can proudly display." },
-        { src: inAction4.url, alt: "Goalkeeper-themed World Cup superstar worksheet ready to print.", caption: "Fun profile pages that make every child feel part of the tournament." },
-        { src: inAction5.url, alt: "Child proudly holding a completed football-themed printable worksheet at home.", caption: "Print, personalize and celebrate every child’s football identity." },
-        { src: inAction6.url, alt: "Student showing a football maths worksheet in the classroom.", caption: "A memorable worksheet children will want to show again and again." },
-        { src: superstarNoah.url, alt: "Noah Harrison's completed My World Cup Superstar Card with 5-star Speed rating.", caption: "⚡ Meet Noah — 5-star Speed, Midfielder, and proud Manchester United superfan!" },
-        { src: superstarFairplay.url, alt: "Young player proudly showing his completed Fair Play Mission worksheet at football training.", caption: "🤝 Fair Play Mission complete — real champions win with respect and teamwork!" },
-        { src: superstarEthan.url, alt: "Ethan Walker's World Cup Superstar Card completed in the classroom.", caption: "⚽ Ethan the Forward dreams of scoring the winning goal — print yours today!" },
+        { src: inAction1, alt: "Child holding a completed World Cup superstar card on a football pitch.", caption: "Add your photo. Rate your skills. Become a World Cup superstar." },
+        { src: inAction2, alt: "Printable World Cup superstar worksheet with profile details and star ratings.", caption: "A personalized football card kids will be excited to complete." },
+        { src: inAction3, alt: "Boy showing his completed World Cup superstar card at home.", caption: "A special keepsake activity parents and teachers can proudly display." },
+        { src: inAction4, alt: "Goalkeeper-themed World Cup superstar worksheet ready to print.", caption: "Fun profile pages that make every child feel part of the tournament." },
+        { src: inAction5, alt: "Child proudly holding a completed football-themed printable worksheet at home.", caption: "Print, personalize and celebrate every child’s football identity." },
+        { src: inAction6, alt: "Student showing a football maths worksheet in the classroom.", caption: "A memorable worksheet children will want to show again and again." },
+        { src: superstarNoah, alt: "Noah Harrison's completed My World Cup Superstar Card with 5-star Speed rating.", caption: "⚡ Meet Noah — 5-star Speed, Midfielder, and proud Manchester United superfan!" },
+        { src: superstarFairplay, alt: "Young player proudly showing his completed Fair Play Mission worksheet at football training.", caption: "🤝 Fair Play Mission complete — real champions win with respect and teamwork!" },
+        { src: superstarEthan, alt: "Ethan Walker's World Cup Superstar Card completed in the classroom.", caption: "⚽ Ethan the Forward dreams of scoring the winning goal — print yours today!" },
       ],
     },
     {
@@ -473,7 +473,7 @@ function SalesPage() {
               style={{ border: "3px solid #1a6b1a", boxShadow: "0 20px 40px -20px rgba(26,77,26,0.35)" }}
             >
               <img
-                src={productMockup.url}
+                src={productMockup}
                 alt="Kick & Learn Activity Pack"
                 width={1200}
                 height={1200}
